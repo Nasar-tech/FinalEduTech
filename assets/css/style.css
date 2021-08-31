@@ -1604,6 +1604,7 @@ section {
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
+
   font-weight: 600;
 }
 
@@ -2375,13 +2376,18 @@ section {
 }
 
 /* Custom CSS */
+
 .studentImg{
   margin:10px;
   padding:10px;
   border:none;
-  width:auto;
-  height:250px;
+  margin-left:15%;
+  width:150px;
+  height:150px;
   
+}
+.studentCard{
+  width:13rem;
 }
 .studentCard:hover{
   border:1px solid rgb(255, 255, 255);
@@ -2389,4 +2395,6 @@ section {
 }
 .studentDiv{
   margin-left:auto;
+  display:flex;
+  justify-content: center;
 }

@@ -15,10 +15,9 @@ if($conn->connect_error){
     $stmt->bind_param("siss",$name,$number,$email,$message);
     $stmt->execute();
     echo "Registration Successful..";
-    
     $stmt->close();
     $conn->close();
-    echo 'Thanks for youre response';
+    echo "alert('Thanks for youre response')";
 }
 
 ?>
