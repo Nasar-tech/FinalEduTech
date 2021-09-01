@@ -185,7 +185,6 @@ section {
 }
 
 .header .logo img {
-  max-height: 3rem;
   margin-right: 8px;
 }
 
@@ -2398,5 +2397,8 @@ section {
   display:flex;
   justify-content: center;
 }
-
+.highqlogo{
+  width:12rem;
+  height:6.5rem;
+}
 

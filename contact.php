@@ -13,7 +13,11 @@ if($conn->connect_error){
     $stmt=$conn->prepare("insert into students (Name,Number,Email,Message) values(?,?,?,?)");
     $stmt->bind_param("siss",$name,$number,$email,$message);
     $stmt->execute();
-    echo "Registration Successful..";
+    $message="nasar";
+    echo "<script type='text/javascript'>alert('$message');</script>";
+    echo " - 0  Message : Registration Successful.";
+    echo("<meta http-equiv='refresh' content='3'>");
+
     $stmt->close();
     $conn->close();
    
