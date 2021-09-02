@@ -2374,7 +2374,7 @@ section {
   color: #012970;
 }
 
-/* Custom CSS */
+/* ***************************************************Custom CSS */
 
 .studentImg{
   margin:10px;
@@ -2387,18 +2387,52 @@ section {
 }
 .studentCard{
   width:13rem;
+  margin:1px solid red;
 }
+
 .studentCard:hover{
   border:1px solid rgb(255, 255, 255);
   box-shadow: 0.1rem 0.3rem 0.8rem rgba(116, 23, 23, 0.445);
 }
 .studentDiv{
-  margin-left:auto;
-  display:flex;
-  justify-content: center;
+
 }
+
+
+.studentSwipes{
+
+
+}
+.studentSwipersDiv{
+  padding:2rem;
+  margin-left:2rem;
+}
+
+
+
+
+
 .highqlogo{
-  width:12rem;
+  width:10.5rem;
   height:6.5rem;
 }
+.aboutuspara{
+  
+  text-align:justify;
+}
+.futureClasses{
+  width:5rem;
+  height:5rem;
+}
+.ourRecentPlacements{
+  margin-bottom:0;
+}
+.studentsSection{
+  
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
 
