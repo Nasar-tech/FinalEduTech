@@ -70,6 +70,7 @@ section {
     font-size: 28px;
     line-height: 32px;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -87,6 +88,7 @@ section {
   .breadcrumbs {
     margin-top: 57px;
   }
+  
 }
 
 .breadcrumbs h2 {
@@ -163,6 +165,7 @@ section {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -316,6 +319,7 @@ section {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  
 }
 
 /**
@@ -341,6 +345,7 @@ section {
   .navbar ul {
     display: none;
   }
+  
 }
 
 .navbar-mobile {
@@ -479,6 +484,7 @@ section {
   .hero {
     background-attachment: fixed;
   }
+  
 }
 
 @media (max-width: 991px) {
@@ -493,6 +499,7 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -508,6 +515,7 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -682,6 +690,7 @@ section {
   .features .feture-tabs h3 {
     font-size: 28px;
   }
+  
 }
 
 .features .feture-tabs .nav-pills {
@@ -735,6 +744,7 @@ section {
   .features .feature-icons h3 {
     font-size: 28px;
   }
+  
 }
 
 .features .feature-icons .content .icon-box {
@@ -1359,6 +1369,7 @@ section {
   .testimonials .swiper-pagination {
     margin-top: 0;
   }
+ 
 }
 
 @media (min-width: 1200px) {
@@ -1366,6 +1377,7 @@ section {
     opacity: 1;
     transform: scale(1.12);
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -2265,6 +2277,11 @@ section {
   .footer .footer-top {
     background-position: center bottom;
   }
+  .studentSwipersDiv {
+    padding: 2rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
 }
 
 .footer .footer-top .footer-info {
@@ -2400,6 +2417,7 @@ section {
 
 
 .studentSwipes{
+margin-left:2rem;
 
 
 }
@@ -2434,5 +2452,65 @@ section {
   box-sizing: border-box;
 }
 
+img:hover{
+  cursor: pointer;
+}
 
 
+
+
+
+/* upcoming Interviews */
+
+.icon-box {
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.icon-box:hover {
+  transform: scale(1.10);
+}
+
+.icon-box:hover .title a {
+  color: #2487ce;
+}
+
+.description {
+  font-size: 22px;
+ 
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+
+.icon {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.icon{
+  font-size: 30px;
+  transition: 0.5s;
+  position: relative;
+}
+.icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
