@@ -102,7 +102,7 @@
             
               <div class="col-md-6" style="display:inline-block">
                 <!-- address -->
-                <a href="https://goo.gl/maps/vhnsTd1xLDVjVef98" target="_blank">
+                <a href="https://goo.gl/maps/vhnsTd1xLDVjVef98" data-toggle="tooltip" data-placement="right"  title="Click Here to Navigate" target="_blank">
                   <div class="info-box">
                     <i class="bi bi-geo-alt"></i>
                     <h3>Address</h3>
@@ -112,7 +112,6 @@
                       DanavaiPeta,Rajahmundry<br/>
                       AndhraPradesh - 533103
                     </p><br/>
-                    <i class="fas fa-map-marked-alt"></i>&nbsp;&nbsp;<h4 class="btn btn-primary">Click Here to Navigate</h4>
                   </div>
                 </a>
                 
@@ -123,14 +122,14 @@
               <div class="info-box">
                 <i class="bi bi-clock"></i>
                 <h3>Open Hours</h3>
-                <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                <p>Monday - Friday<br />9:00AM - 06:30PM</p>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-6">
-          <b style="font-style: italic;color:rebeccapurple">Please fill the form we will call you with in 24 hours.</b>
+          <b style="font-style: italic;color:rebeccapurple">Please fill the form we will call you as soon as possible.</b>
           
           
           <form action="contact2.php" method="post" class="php-email-form">
@@ -173,13 +172,12 @@
                   placeholder="Why you want to here.? Ex. 'i want to learn WebDeveloper (or) learn testing'"
                 ></textarea>
               </div>
+              <!-- REcaptcha -->
+              
+              
 
               <div class="col-md-12 text-center">
-                <div class="loading"></div>
-
-                <div class="error-message"></div>
-
-                <div class="sent-message"></div>
+               
 
                 <button type="submit">Send Message</button>
               </div>
@@ -206,7 +204,17 @@
 
 
 
+<!-- Bootstrap4 -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- End bootstrap4 -->
 
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+  </script>
 
 
 

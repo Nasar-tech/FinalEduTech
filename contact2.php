@@ -15,7 +15,7 @@ if($conn->connect_error){
     $stmt->execute();
     $message="Thanks for your interest we will reach out you in shortly";
     echo "<script type='text/javascript'>alert('$message');</script>";
-    echo " - 0  Message : Registration Successful.";
+  
     echo "<script>window.location.replace('index.php');</script>";
     echo "<a href='index.html'>Go to Home</a>";
 
