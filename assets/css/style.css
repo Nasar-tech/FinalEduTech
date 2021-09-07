@@ -2378,11 +2378,20 @@ section {
   line-height: 26px;
 }
 
-.footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-  color: #012970;
+  .footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #012970;
+  }
+  
+  .btn-floating{    
+    box-shadow: 3px 10px rgb(109, 103, 175);
+  }
+.btn-floating:hover{
+  
+  box-shadow: 5px 25px rgb(32, 25, 107);
 }
+
 
 .footer .credits {
   padding-top: 10px;

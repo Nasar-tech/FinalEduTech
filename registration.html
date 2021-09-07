@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registrationcss.css">
+
+    <title>Registration</title>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="./assets/img/highqlabs2.jpeg" style="width:6rem; height:4rem;" alt="logo" />
+                        <h3>Welcome to</h3>
+                        <h2>HQL EduTech</h2>
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                       
+                    </div>
+                    <div class="col-md-9 register-right">
+                        <a class="btn btn-outline-primary" href="./index.html" style="margin-left:80%;margin-top: 5%;margin-bottom: 0;">Back to Home</a>
+                        <form method="POST" action="./registeredStudents.php">
+                        
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Apply for Registering the Course</h3>
+                                
+
+                               
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name *" name="fName" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name *" name="lName" value="" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email *" name="email" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text"   name="phone" pattern="[6-9]{1}[0-9]{9}"  title="please enter proper mobile number" class="form-control" placeholder="Your Phone *" value="" />
+                                            
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span>Female </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+                                    <div class="col-md-6">                                      
+                                       
+                                        <div class="form-group">
+                                            <select name="courses" class="form-control">
+                                                <option value="" class="hidden"  selected disabled>What Course you want to learn</option>
+                                                <option value="Java">Java</option>
+                                                <option value="C#">C#</option>
+                                                <option value="Python">Python</option>
+                                                <option value="Angular">Angular</option>
+                                                <option value="React">React</option>
+                                                <option value="Selenium Testing">Selenium Testing</option>
+                                                <option value="DevOps">DevOps</option>
+                                            </select>
+                                        </div>
+                                        
+                                        
+                                        
+                                       
+                                        <input type="submit" class="btnRegister" name="submit" value="Register"/>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </form>
+                </div>
+
+            </div>
+            <style>
+                input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+            </style>
+</body>
+</html>
