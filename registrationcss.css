@@ -93,3 +93,12 @@
     margin-bottom: -15%;
     color: #495057;
 }
+
+
+
+/* custom */
+.btnHome:hover{
+    border: 1px solid red;
+    background-color: #0062cc !important;
+    color:white !important;
+}

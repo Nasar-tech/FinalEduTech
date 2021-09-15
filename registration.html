@@ -24,7 +24,8 @@
                        
                     </div>
                     <div class="col-md-9 register-right">
-                        <a class="btn btn-outline-primary" href="./index.html" style="margin-left:80%;margin-top: 5%;margin-bottom: 0;">Back to Home</a>
+                        <!-- home button -->
+                        
                         <form method="POST" action="./registeredStudents.php">
                         
                         <div class="tab-content" id="myTabContent">
@@ -36,17 +37,17 @@
                                 <div class="row register-form">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="First Name *" name="fName" value="" />
+                                            <input type="text" class="form-control" placeholder="First Name *" name="fName" value="" required />
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name *" name="lName" value="" />
+                                            <input type="text" class="form-control" placeholder="Last Name *" name="lName" value="" required />
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email *" name="email" value="" />
+                                            <input type="email" class="form-control" placeholder="Email *" name="email" value="" required />
                                         </div>
                                         <div class="form-group">
-                                            <input type="text"   name="phone" pattern="[6-9]{1}[0-9]{9}"  title="please enter proper mobile number" class="form-control" placeholder="Your Phone *" value="" />
+                                            <input type="text" name="phone" pattern="[6-9]{1}[0-9]{9}"  title="please enter proper mobile number" class="form-control" placeholder="Your Phone *" value="" required/>
                                             
                                         </div>
 
@@ -67,13 +68,13 @@
 
 
                                     </div>
-
+  
 
 
                                     <div class="col-md-6">                                      
                                        
                                         <div class="form-group">
-                                            <select name="courses" class="form-control">
+                                            <select name="courses" class="form-control" required>
                                                 <option value="" class="hidden"  selected disabled>What Course you want to learn</option>
                                                 <option value="Java">Java</option>
                                                 <option value="C#">C#</option>
@@ -89,6 +90,7 @@
                                         
                                        
                                         <input type="submit" class="btnRegister" name="submit" value="Register"/>
+                                        <a href="index.html"><input type="button" class="btnRegister btnHome" value="Home" style="color:black;background-color: white;"/></a>
                                     </div>
                                 </div>
                             </div>                            
@@ -105,5 +107,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
             </style>
+            
+
 </body>
 </html>

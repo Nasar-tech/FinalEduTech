@@ -776,7 +776,8 @@ section {
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
-  padding: 60px 30px;
+  width:20rem !important;
+  padding: 30px 20px;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
@@ -2448,8 +2449,8 @@ margin-left:2rem;
   text-align:justify;
 }
 .futureClasses{
-  width:5rem;
-  height:5rem;
+  width:4rem;
+  height:4rem;
 }
 .ourRecentPlacements{
   margin-bottom:0;
@@ -2522,4 +2523,39 @@ img:hover{
 .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
+}
+
+.timeLine{
+  font-style: italic;
+  background-color: rgba(217, 216, 228, 0.171);
+}
+.timeLine:hover{
+  box-shadow: 0 0 29px 0 rgba(9, 132, 219, 0.76);
+
+}
+
+.dateforUpcomingClasses{
+  animation:blinker 1s linear infinite;
+}
+
+
+
+.courseDiv {
+  animation: blinker 1.5s linear infinite;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.quoteText{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  content: "";
+  background: url(../../assets/images/home/quote-img.png) no-repeat 0 0;
+  background-size: 50px 50px;
 }

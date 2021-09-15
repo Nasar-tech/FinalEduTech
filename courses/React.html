@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Course Structure</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div
+        class="col-10 mx-auto m-0 p-0"
+        style="background-color: white !important; z-index: 99"
+      >
+        <div
+          class="container-fluid m-1"
+          style="position: fixed; background-color: white !important"
+        >
+          <img
+            src="../assets/img/highqlabs2.jpeg"
+            style="width: 8rem; height: 5rem"
+            alt=""
+          />
+          <div style="display: inline" class="ms-auto">
+            <a href="../index.html" style="cursor: pointer;"><button class="btn-outline-primary btn-lg" style="border-radius: 35%;">Home</button></a>
+                    <a href="../registration.html" style="cursor: pointer;"><button class="btn-primary btn-lg" style="border-radius: 35%;">Register</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <br />
+    <div class="row" style="z-index: -1 !important">
+      <div class="col-10 mx-auto">
+        <h2>React Course Curriculam</h2>
+
+        
+      </div>
+
+      <div class="col-10 mx-auto m-5 p-4">
+        <ul class="list-group">
+          <div id="accordion">
+
+
+            
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      JavaScript – Basics and In-depth
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li
+                    class="list-group-item btn-secondary"
+                    style="color: black"
+                  >
+                    Java Programming Basics
+                  </li>
+
+                  <li class="list-group-item">Basics of JavaScript.</li>
+                  <li class="list-group-item">JavaScript in depth.</li>
+                  <li class="list-group-item">
+                    Creating private/public/global fields
+                  </li>
+                  <li class="list-group-item">
+                    Creating private/public/global functions
+                  </li>
+                  <li class="list-group-item">
+                    Dynamic rendering with JavaScript
+                  </li>
+                  <li class="list-group-item">Events</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      React – Basics and In-depth
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">
+                    Importance of exception handling
+                  </li>
+
+                  <li class="list-group-item">React</li>
+
+                  <li class="list-group-item">Introduction to React</li>
+                  <li class="list-group-item">Original DOM vs Virtual DOM</li>
+                  <li class="list-group-item">React Components</li>
+                  <li class="list-group-item">React Components with JSX</li>
+                  <li class="list-group-item">React Components with ES6</li>
+                  <li class="list-group-item">Props and state</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Three"
+                    aria-expanded="false"
+                    aria-controls="Three"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Node
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Three"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">
+                    Basics of Node and Installation.
+                  </li>
+                  <li class="list-group-item">Introduction to Npm</li>
+                  <li class="list-group-item">Adding and removing modules</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Four"
+                    aria-expanded="false"
+                    aria-controls="Four"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      React with Node
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Four"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">
+                    Creating an application using Create React App.
+                  </li>
+                  <li class="list-group-item">Life Cycle</li>
+                  <li class="list-group-item">Debugging</li>
+                  <li class="list-group-item">Default values</li>
+                  <li class="list-group-item">SetState in depth</li>
+                  <li class="list-group-item">Creating Forms</li>
+                  <li class="list-group-item">Creating Table</li>
+                  <li class="list-group-item">Handling Events</li>
+                  <li class="list-group-item">Applying Filters</li>
+                  <li class="list-group-item">JSX in depth</li>
+                  <li class="list-group-item">Validations</li>
+                  <li class="list-group-item">Applying Styles</li>
+                  <li class="list-group-item">Backend calls</li>
+                  <li class="list-group-item">Stateful Components</li>
+                  <li class="list-group-item">Stateless Components</li>
+                  <li class="list-group-item">Local Storage</li>
+                  <li class="list-group-item">Routing</li>
+                  <li class="list-group-item">
+                    Basic Routing and Passing Params
+                  </li>
+                  <li class="list-group-item">Hyperlinks</li>
+                  <li class="list-group-item">Master Pages</li>
+                  <li class="list-group-item">Reconciliation</li>
+                  <li class="list-group-item">Creating Reusable Components</li>
+                  <li class="list-group-item">
+                    React.Component vs React.pure Component
+                  </li>
+                  <li class="list-group-item">Composition vs Inheritance</li>
+                  <li class="list-group-item">
+                    Code Reusability and Optimization
+                  </li>
+                  <li class="list-group-item">Fragments</li>
+                  <li class="list-group-item">Bundling</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#ThreeAfter"
+                    aria-expanded="false"
+                    aria-controls="ThreeAfter"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Integration of 3rd party Modules
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="ThreeAfter"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                 
+                  <li class="list-group-item">Bootstrap Controls</li>
+                  <li class="list-group-item">Material UI</li>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Five"
+                    aria-expanded="false"
+                    aria-controls="Five"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Other Debugging Options
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Five"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Others
+                  <li class="list-group-item">Other Debugging Options</li>
+                  <li class="list-group-item">Developer Tools</li>
+                  <li class="list-group-item">
+                    Current Applications developed in React
+                  </li>
+                  <li class="list-group-item">Future of React.</li>
+                  <li class="list-group-item">Introduction to Starter Kits</li>
+                  <li class="list-group-item">
+                    Integration with other libraries
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

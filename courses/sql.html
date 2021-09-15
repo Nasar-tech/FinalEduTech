@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQL Server Course Structure</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div
+        class="col-10 mx-auto m-0 p-0"
+        style="background-color: white !important; z-index: 99"
+      >
+        <div
+          class="container-fluid m-1"
+          style="position: fixed; background-color: white !important"
+        >
+          <img
+            src="../assets/img/highqlabs2.jpeg"
+            style="width: 8rem; height: 5rem"
+            alt=""
+          />
+          <div style="display: inline" class="ms-auto">
+            <a href="../index.html" style="cursor: pointer"
+              ><button
+                class="btn-outline-primary btn-lg"
+                style="border-radius: 35%"
+              >
+                Home
+              </button></a
+            >
+            <a href="../registration.html" style="cursor: pointer"
+              ><button class="btn-primary btn-lg" style="border-radius: 35%">
+                Register
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <br />
+    <div class="row" style="z-index: -1 !important">
+      <div class="col-10 mx-auto">
+        <h2>SQL Server Course Curriculam</h2>
+      </div>
+
+      <div class="col-10 mx-auto m-5 p-4">
+        <ul class="list-group">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="One">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                       Introduction
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="One"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">What Is Database?</li>
+                  <li class="list-group-item">
+                    What is Database Management System (DBMS)?
+                  </li>
+                  <li class="list-group-item">What is Relational Model ?</li>
+                  <li class="list-group-item">Introduction to RDBMS .</li>
+                  <li class="list-group-item">Brief on E.F CODD . </li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#afterone"
+                      aria-expanded="false"
+                      aria-controls="afterone"
+                    >
+                    <li class="list-group-item bg-secondary text-white">
+                       Datatypes and Constraints 
+                    </li>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="afterone"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                      <li class="list-group-item">What are Datatypes ?</li>
+                      <li class="list-group-item">Types and Examples .</li>
+                      <li class="list-group-item">How to use .</li>
+                      <li class="list-group-item">What are Constraints? </li>
+                      <li class="list-group-item">Types and Examples.</li>
+                      <li class="list-group-item">How to use. </li>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                       Statements in SQL
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">
+                    Data Definition Language (DDL)
+                  </li>
+                  <li class="list-group-item">
+                    Data Manipulation Language (DML)
+                  </li>
+                  <li class="list-group-item">
+                    Transaction Control Language (TCL)
+                  </li>
+                  <li class="list-group-item">Data Control Language (DCL)</li>
+                  <li class="list-group-item">Data Query Language (DQL)</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Four"
+                    aria-expanded="false"
+                    aria-controls="Four"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Software installation
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Four"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">
+                    Installing and set up of software
+                  </li>
+                  <li class="list-group-item">
+                    Working on Oracle 10g. ( Basic commands )
+                  </li>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Five"
+                    aria-expanded="false"
+                    aria-controls="Five"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                       Data Query Language (DQL) 
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Five"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Select </li>
+                  <li class="list-group-item">From </li>
+                  <li class="list-group-item">Where</li>
+                  <li class="list-group-item">Group By</li>
+                  <li class="list-group-item">Having </li>
+                  <li class="list-group-item">Order By </li>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Six"
+                    aria-expanded="false"
+                    aria-controls="Six"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Operators 
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Six"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item bg-secondary text-white">
+                    Operators 
+                  </li>
+                  <li class="list-group-item">Types and Examples </li>
+
+                  <li class="list-group-item bg-secondary text-white">
+                     Functions in SQL 
+                  </li>
+                  <li class="list-group-item">Single Row Functions </li>
+                  <li class="list-group-item">
+                    Multi Row Functions      Max ()     Min ()     Sum ()   
+                     Avg ()     Count ()
+                  </li>
+
+                  <li class="list-group-item bg-secondary text-white">
+                    Sub Query 
+                  </li>
+                  <li class="list-group-item">Introduction to Sub Query </li>
+                  <li class="list-group-item">Working of Sub Query </li>
+                  <li class="list-group-item">Query Writing and Execution </li>
+                  <li class="list-group-item">
+                    Types of Sub Query      1. Single Row Sub Query      2.
+                    Multi Row Sub Query        
+                  </li>
+
+                  <li class="list-group-item">Nested Sub Query</li>
+
+                  <li class="list-group-item bg-secondary text-white">
+                     Pseudo Columns 
+                  </li>
+                  <li class="list-group-item">
+                    Introduction on Pseudo Columns 
+                  </li>
+                  <li class="list-group-item">ROWID</li>
+                  <li class="list-group-item">ROWNUM</li>
+                  <li class="list-group-item">Working and Usage.</li>
+
+                  <li class="list-group-item bg-secondary text-white">JOINS</li>
+                  <li class="list-group-item">What Is Join?</li>
+                  <li class="list-group-item">Types of Joins.</li>
+                  <li class="list-group-item">Cartesian Join</li>
+                  <li class="list-group-item">Inner Join </li>
+                  <li class="list-group-item">Outer Join </li>
+                  <li class="list-group-item">Self-Join </li>
+                  <li class="list-group-item">Queries and Examples.</li>
+
+                  <li class="list-group-item bg-secondary text-white">
+                    Co- Related Sub Query 
+                  </li>
+                  <li class="list-group-item">Working and Examples </li>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#eight"
+                    aria-expanded="false"
+                    aria-controls="eight"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Data Definition Language (DDL)
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="eight"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Create </li>
+                  <li class="list-group-item">Rename </li>
+                  <li class="list-group-item">Alter </li>
+                  <li class="list-group-item">Truncate </li>
+                  <li class="list-group-item">Drop</li>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#Nine"
+                    aria-expanded="false"
+                    aria-controls="Nine"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                       Data Query Language (DQL) 
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="Nine"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Select </li>
+                  <li class="list-group-item">From </li>
+                  <li class="list-group-item">Where</li>
+                  <li class="list-group-item">Group By</li>
+                  <li class="list-group-item">Having </li>
+                  <li class="list-group-item">Order By </li>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#TEn"
+                    aria-expanded="false"
+                    aria-controls="TEn"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Data Manipulation Language (DML)
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="TEn"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Insert </li>
+                  <li class="list-group-item">Update </li>
+                  <li class="list-group-item">Delete</li>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#eleven"
+                    aria-expanded="false"
+                    aria-controls="eleven"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                      Transaction Control Language (TCL)
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="eleven"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Commit</li>
+                  <li class="list-group-item">Save point</li>
+                  <li class="list-group-item">Rollback</li>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#twelve"
+                    aria-expanded="false"
+                    aria-controls="twelve"
+                  >
+                    <li class="list-group-item bg-secondary text-white">
+                       Data Control Language (DCL)
+                    </li>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="twelve"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <li class="list-group-item">Grant </li>
+                  <li class="list-group-item">Revoke </li>
+                  <li class="list-group-item bg-secondary text-white">
+                     Normalization
+                  </li>
+                  <li class="list-group-item">
+                    Introduction to Normalization 
+                  </li>
+                  <li class="list-group-item">Types of Normal Forms </li>
+                  <li class="list-group-item">Examples.</li>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
